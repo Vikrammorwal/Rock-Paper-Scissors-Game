@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    cursor: pointer;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 45px;
+    width: fit-content;
+    padding: 12px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+
+}

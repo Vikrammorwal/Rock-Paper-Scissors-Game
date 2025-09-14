@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="parent">
+        <div id="main">
+
+            <div id="output">
+                <h2 id="user"></h2>
+                <h2 id="ai"></h2>
+                <h2 id="result"></h2>
+            </div>
+            <br><br>
+            <img src="rock.jpg" alt="" width="200" onclick="gameStart('rock')">
+            <img src="paper.jpg" alt="" width="200" onclick="gameStart('paper')">
+            <img src="scissor.jpg" alt="" width="200" onclick="gameStart('scissor')">
+        </div>
+        <br><br>
+        <button id="userscore">User: 0</button>
+        <br>
+        <button id="aiscore">AI: 0</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
